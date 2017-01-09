@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hm.shapeselectordemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="圆角虚线" />
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_selector"
+            android:text="hello" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="一半是直角 一半是圆角，实线" />
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_selector_another"
+            android:text="hello" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="渐变线性背景色" />
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg_gradient" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="渐变放射性背景色" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg_gradient_circle" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="渐变扇形背景色" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg_gradient_sweep" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/my_layer_list"
+            android:gravity="center"
+            android:text="使用layer-list 背景色" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+</ScrollView>
