@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ShapeSelectorDemo.iml" filepath="$PROJECT_DIR$/ShapeSelectorDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ShapeSelectordemo.iml" filepath="$PROJECT_DIR$/.idea/ShapeSelectordemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShapeSelectordemo.app.unitTest.iml" />
     </modules>
   </component>
 </project>
